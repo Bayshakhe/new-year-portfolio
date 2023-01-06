@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 1600px;
+    margin: 0 auto;
+    font-family: 'Work Sans', sans-serif;
+}
+/* header section design starts */
+header{
+    background-image: url("../images/banner/banner1.png");
+    background-size: cover;
+    padding: 200px;
+    text-align: right;
+}
+.header{
+    width: 40%;
+    margin-left: auto;
+}
+.header-title{
+    font-size: 65px;
+}
+.description{
+    margin: 25px 0;
+}
+.btn-primary{
+    font-size: 20px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: 	#FF4500;
+    color: white;
+}
