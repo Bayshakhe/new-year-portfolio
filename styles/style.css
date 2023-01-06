@@ -36,7 +36,7 @@ header{
 
 /* achievement & failure part design starts */
 .article{
-    padding: 200px 200px 0;
+    padding: 150px 200px 0;
     display: flex;
     align-items: center;
     gap: 50px;
@@ -47,4 +47,24 @@ header{
 }
 .correct{
     color: #FF4500;
+}
+
+/* my plans part design starts */
+.my-plan{
+    text-align: center;
+    margin: 120px 0;
+}
+.plans{
+    display: flex;
+    justify-content: space-evenly;
+}
+.my-plan h2{
+    margin-bottom: 80px;
+}
+.col h3{
+    font-size: 30px;
+    margin: 10px 0;
+}
+.col p{
+    font-size: 25px;
 }
