@@ -89,3 +89,46 @@ header{
     border: #FF4500;
     margin-top: 20px;
 }
+/* footer design starts */
+footer{
+    background-color: black;
+    color: white;
+    margin-top: 100px;
+    padding: 120px 200px; 
+    display: flex;
+    justify-content: space-between;
+}
+.future{
+    width: 50%;
+}
+footer h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+footer h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+footer p{
+    margin-bottom: 15px;
+}
+.footer-icons img{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.subscribe input{
+    display: block;
+    font-size: 20px;
+    padding: 15px 20px; 
+    border-radius: 5px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    background-color: 	black;
+    margin-bottom: 20px;
+}
+.subscribe button{
+    background-color: white;
+    color: #FF4500;
+    border: #FF4500;
+    padding: 15 30px;
+}
