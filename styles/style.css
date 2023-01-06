@@ -52,7 +52,7 @@ header{
 /* my plans part design starts */
 .my-plan{
     text-align: center;
-    margin: 120px 0;
+    margin: 120px;
 }
 .plans{
     display: flex;
@@ -67,4 +67,25 @@ header{
 }
 .col p{
     font-size: 25px;
+}
+
+/* timing part design starts */
+.timing{
+    background-image: url("../images/watch.png"),  linear-gradient(90deg,orangered, white);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 200px;
+    border-radius: 10px;
+}
+.box-text{
+    padding: 50px;
+    color: white;
+    width: 45%;
+}
+.box-text button{
+    background-color: white;
+    color: #FF4500;
+    border: #FF4500;
+    margin-top: 20px;
 }
